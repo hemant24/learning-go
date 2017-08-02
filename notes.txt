@@ -1,0 +1,50 @@
+It has online tool where you can test the go code.
+
+https://play.golang.org/
+
+NICE !!
+
+
+Book I am following have source code at : https://github.com/PacktPublishing/Learning-Go-Programming
+
+
+====Installation===============
+
+tar -C /usr/local -xzf go1.8.3.linux-amd64.tar.gz
+
+
+
+Add /usr/local/go/bin to the PATH environment variable. You can do this by adding this line to your /etc/profile (for a system-wide installation) or $HOME/.profile:
+
+export PATH=$PATH:/usr/local/go/bin
+
+
+
+I added above line (export PATH=$PATH:/usr/local/go/bin) to /home/vagrant/.profile 
+
+then do 
+
+> source /home/vagrant/.profile 
+
+
+
+> go
+go version go1.8.3 linux/amd64
+
+So successfully installed !!
+
+I have added PATH and GOPATH to ~/.profile, ~/.bashrc and /etc/profile
+
+
+> vi ~/.profile
+>	Enter following to the end of the file 
+export PATH=$PATH:/usr/local/go/bin
+
+
+
+
+
+
+
+========Tutorials==========
+slice is variable sized array
